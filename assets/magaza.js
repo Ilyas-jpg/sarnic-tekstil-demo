@@ -416,7 +416,7 @@
       <div class="ped-sol">
         <h2 class="baslik b2">Pedli külot nasıl çalışır?</h2>
         <p>Ped külota sabit dikilidir: kaymaz, katlanmaz, yapışkan kullanmaz. Kullandıktan sonra durula, yıka, tekrar kullan.</p>
-        <svg class="katman-cizim" viewBox="0 0 640 210" role="img" aria-label="Pedli külodun dört katmanı">
+        <svg class="katman-cizim" viewBox="0 0 640 190" role="img" aria-label="Pedli külodun dört katmanı">
           <defs>
             <pattern id="orgu" width="10" height="8" patternUnits="userSpaceOnUse"><path d="M0 6 Q2.5 2 5 6 T10 6" fill="none" stroke="#d9cfc4" stroke-width="1.2"/></pattern>
             <pattern id="emici" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="1.7" fill="${renk.vurgu}" opacity=".55"/></pattern>
@@ -428,10 +428,10 @@
           <path d="M20 142 C140 122, 500 122, 620 142 L620 154 C500 134, 140 134, 20 154 Z" fill="${renk.ink}"/>
           <path d="M28 168 C150 148, 490 148, 612 168" fill="none" stroke="${renk['vurgu-metin']}" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round"/>
           <g font-family="Heros, Helvetica, Arial" font-size="15" font-weight="700" fill="${renk.ink}">
-            <circle cx="40" cy="22" r="13" fill="${renk.vurgu}"/><text x="40" y="27" text-anchor="middle" fill="${renk['vurgu-ink']}">1</text>
-            <circle cx="200" cy="96" r="13" fill="${renk.vurgu}"/><text x="200" y="101" text-anchor="middle" fill="${renk['vurgu-ink']}">2</text>
-            <circle cx="360" cy="190" r="13" fill="${renk.vurgu}"/><text x="360" y="195" text-anchor="middle" fill="${renk['vurgu-ink']}">3</text>
-            <circle cx="560" cy="190" r="13" fill="${renk.vurgu}"/><text x="560" y="195" text-anchor="middle" fill="${renk['vurgu-ink']}">4</text>
+            <circle cx="44" cy="54" r="13" fill="${renk.vurgu}"/><text x="44" y="59" text-anchor="middle" fill="${renk['vurgu-ink']}">1</text>
+            <circle cx="596" cy="103" r="13" fill="${renk.vurgu}"/><text x="596" y="108" text-anchor="middle" fill="${renk['vurgu-ink']}">2</text>
+            <circle cx="44" cy="148" r="13" fill="${renk.vurgu}"/><text x="44" y="153" text-anchor="middle" fill="${renk['vurgu-ink']}">3</text>
+            <circle cx="596" cy="168" r="13" fill="${renk.vurgu}"/><text x="596" y="173" text-anchor="middle" fill="${renk['vurgu-ink']}">4</text>
           </g>
         </svg>
         <ul class="katmanlar">${K.katmanlar.map(([b, a], i) => `<li><span style="background:${renk.vurgu};color:${renk['vurgu-ink']}">${i + 1}</span><div><b>${esc(b)}</b><small>${esc(a)}</small></div></li>`).join('')}</ul>
